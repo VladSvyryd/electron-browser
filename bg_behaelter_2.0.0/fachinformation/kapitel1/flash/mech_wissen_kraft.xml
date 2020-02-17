@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Descr>Was meinen Sie? Wie groß ist die Wucht (= Kraft) eines 2,5 kg schweren Hammers, der aus       10 m Höhe auf den Boden fällt, wenn der Aufschlag 0,1 Sek. dauert?</Descr>
+	<ID>11_2_2</ID>
+	<Bild>bilder/wissen_kraft.jpg</Bild>
+	<fb_richtig><![CDATA[Genau. Die Aufprallkraft beträgt ca. 1.261 Newton.]]></fb_richtig>
+	<fb_falsch><![CDATA[Leider daneben. Mit den Formeln P = m * v und F = P / t<BR>kommen Sie weiter!]]></fb_falsch>
+	<fb_achtung>Bitten treffen Sie zuerst Ihre Auswahl!</fb_achtung>
+	<content>
+		<Options Category="F">ca. 132 Newton</Options>
+		<Options Category="F">ca. 240 Newton</Options>
+		<Options Category="F">ca. 561 Newton</Options>
+		<Options Category="F">ca. 869 Newton</Options>
+		<Options Category="R">ca. 1.261 Newton</Options>
+		<Options Category="F">ca. 2.543 Newton</Options>
+	</content>
+</Quiz>

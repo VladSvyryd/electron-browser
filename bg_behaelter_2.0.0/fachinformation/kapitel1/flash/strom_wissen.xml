@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<ID>12_2</ID>
+	<Descr>Beantworten Sie die zwei folgenden Fragen, indem Sie die jeweils passende elektrische Stromstärke auf die freien Felder ziehen.</Descr>
+	<fb_richtig><![CDATA[Sie haben die passenden Stromstärken ausgewählt und zugeordnet.]]></fb_richtig>
+	<fb_falsch><![CDATA[Bei 30 mA Wechselstrom und 120 mA Gleichstrom kann es bei<br>längerer Einwirkung zu Störungen im Herzen kommen.]]></fb_falsch>
+	<fb_achtung>Bitte ziehen Sie erst zwei Antworten in die passenden Lücken</fb_achtung>
+	<content>
+		<Options Category="leer" Term="leer"/>
+	</content>
+</Quiz>

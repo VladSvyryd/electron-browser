@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<table>
+	<rows>
+		<kuerzel>A 0</kuerzel>
+		<titel>Übersicht</titel>
+		<seite>3</seite>
+		<dateiname>uebersicht_a.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 1</kuerzel>
+		<titel>Verantwortung im Labor</titel>
+		<seite>4</seite>
+	</rows>
+	<rows>
+		<kuerzel>A 1.1</kuerzel>
+		<titel>Einleitung</titel>
+		<seite>4</seite>
+		<dateiname>verantwortung_einleitung.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 1.2</kuerzel>
+		<titel>Arbeitgeber</titel>
+		<seite>5</seite>
+		<dateiname>arbeitgeber.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 1.3</kuerzel>
+		<titel>Vorgesetzte</titel>
+		<seite>7</seite>
+		<dateiname>vorgesetzte.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 1.4</kuerzel>
+		<titel>Beschäftigte</titel>
+		<seite>8</seite>
+		<dateiname>beschaeftigte.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 1.5</kuerzel>
+		<titel>Besondere Personengruppen</titel>
+		<seite>9</seite>
+		<dateiname>besondere_personengruppen.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 1.6</kuerzel>
+		<titel>Rechtsfolgen</titel>
+		<seite>11</seite>
+		<dateiname>rechtsfolgen.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 1.7</kuerzel>
+		<titel>Übungen</titel>
+		<seite>14</seite>
+	</rows>
+	<rows>
+		<kuerzel>A 1.7.1</kuerzel>
+		<titel>Weisungsbefugnis</titel>
+		<seite>14</seite>
+		<dateiname>uebung_weisungsbefugnis.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 1.7.2</kuerzel>
+		<titel>Pflichten der Beschäftigten</titel>
+		<seite>15</seite>
+		<dateiname>uebung_pflichten_beschaeftigte.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 1.7.3</kuerzel>
+		<titel>Straftrecht I</titel>
+		<seite>16</seite>
+		<dateiname>uebung_strafrecht2.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 1.7.4</kuerzel>
+		<titel>Straftrecht II</titel>
+		<seite>17</seite>
+		<dateiname>uebung_strafrecht1.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 1.7.5</kuerzel>
+		<titel>Wer haftet?</titel>
+		<seite>18</seite>
+		<dateiname>uebung_wer_haftet.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 2</kuerzel>
+		<titel>Dreh- und Angelpunkt Gefährdungsbeurteilung</titel>
+		<seite>19</seite>
+	</rows>
+	<rows>
+		<kuerzel>A 2.1</kuerzel>
+		<titel>Einleitung</titel>
+		<seite>19</seite>
+		<dateiname>gefaehrdungsbeurteilung_einleitung.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 2.2</kuerzel>
+		<titel>Warum Beurteilungen?</titel>
+		<seite>20</seite>
+		<dateiname>warum_beurteilungen.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 2.3</kuerzel>
+		<titel>Gefährdungen im Labor</titel>
+		<seite>21</seite>
+		<dateiname>gefaehrdungen_labor.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 2.4</kuerzel>
+		<titel>Das intrinsische Konzept</titel>
+		<seite>23</seite>
+	</rows>
+	<rows>
+		<kuerzel>A 2.4.1</kuerzel>
+		<titel>Sicherheitsfaktoren</titel>
+		<seite>23</seite>
+		<dateiname>sicherheitsfaktoren.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 2.4.2</kuerzel>
+		<titel>Grundsicherheit mit den Laborrichtlinien</titel>
+		<seite>24</seite>
+		<dateiname>grundsicherheit_mit_laborrichtlinie.ht</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 2.4.3</kuerzel>
+		<titel>Maßnahmenpakete</titel>
+		<seite>26</seite>
+		<dateiname>massnahmenpakete.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 2.5</kuerzel>
+		<titel>Übungen</titel>
+		<seite>27</seite>
+	</rows>
+	<rows>
+		<kuerzel>A 2.5.1</kuerzel>
+		<titel>Kernziele der Beurteilung</titel>
+		<seite>27</seite>
+		<dateiname>uebung_kernziele_beurteilung.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 2.5.2</kuerzel>
+		<titel>Typische Gefährdungen</titel>
+		<seite>28</seite>
+		<dateiname>uebung_typische_gefaehrdungen.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 2.5.3</kuerzel>
+		<titel>Bedeutung der Laborrichtlinien</titel>
+		<seite>29</seite>
+		<dateiname>uebung_bedeutung_laborrichtlinien.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 3</kuerzel>
+		<titel>Gefährdungsbeurteilungen durchführen</titel>
+		<seite>30</seite>
+	</rows>
+	<rows>
+		<kuerzel>A 3.1</kuerzel>
+		<titel>Einleitung</titel>
+		<seite>30</seite>
+		<dateiname>beurteilung_durchfuehren_einleitung.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 3.2</kuerzel>
+		<titel>Was ist zu berücksichtigen?</titel>
+		<seite>31</seite>
+		<dateiname>beurteilung_was_beruecksichtigen.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 3.3</kuerzel>
+		<titel>Wer führt Beurteilungen durch?</titel>
+		<seite>33</seite>
+		<dateiname>beurteilung_wer_fuehrt_durch.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 3.4</kuerzel>
+		<titel>Wann werden sie durchgeführt?</titel>
+		<seite>34</seite>
+		<dateiname>beurteilung_wann_durchfuehren.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 3.5</kuerzel>
+		<titel>Wie werden sie durchgeführt?</titel>
+		<seite>35</seite>
+	</rows>
+	<rows>
+		<kuerzel>A 3.5.1</kuerzel>
+		<titel>Die Arbeitsschritte</titel>
+		<seite>35</seite>
+		<dateiname>beurteilungen_arbeitsschritte.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 3.5.2</kuerzel>
+		<titel>Vereinfachte Beurteilungen (neue Seite)</titel>
+		<seite>37</seite>
+		<dateiname>vereinfachte_beurteilungen.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 3.5.3</kuerzel>
+		<titel>Substitution von Gefahrstoffen</titel>
+		<seite>39</seite>
+		<dateiname>substitution_gefahrstoffen.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 3.5.4</kuerzel>
+		<titel>Gefahrstoffverzeichnis</titel>
+		<seite>41</seite>
+		<dateiname>gefahrstoffverzeichnis.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 3.5.5</kuerzel>
+		<titel>Expositionsermittlung</titel>
+		<seite>42</seite>
+		<dateiname>expositionsermittlung.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 3.5.6</kuerzel>
+		<titel>GHS-Übergangsfristen: Was ist zu tun?</titel>
+		<seite>43</seite>
+		<dateiname>ghs_uebergangsfristen.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 3.6</kuerzel>
+		<titel>Übungen</titel>
+		<seite>45</seite>
+	</rows>
+	<rows>
+		<kuerzel>A 3.6.1</kuerzel>
+		<titel>Inhalte der Gefährdungsbeurteilung</titel>
+		<seite>45</seite>
+		<dateiname>uebung_inhalte_beurteilung.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 3.6.2</kuerzel>
+		<titel>Mithilfe der Beschäftigten</titel>
+		<seite>46</seite>
+		<dateiname>uebung_mithilfe_beschaeftigte.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 3.6.3</kuerzel>
+		<titel>Aktualisierungen</titel>
+		<seite>47</seite>
+		<dateiname>uebung_aktualisierungen.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 3.6.4</kuerzel>
+		<titel>Vorgehensweise</titel>
+		<seite>48</seite>
+		<dateiname>uebung_vorgehensweise.htm</dateiname>
+	</rows>
+	<rows>
+		<kuerzel>A 3.6.5</kuerzel>
+		<titel>Global Harmonisiertes System</titel>
+		<seite>49</seite>
+		<dateiname>uebung_ghs.htm</dateiname>
+	</rows>
+</table>

@@ -1,0 +1,122 @@
+<html>
+<head>
+<title>Lexikon</title>
+
+<script language="JavaScript">
+<!-- 
+function resetLink()
+{
+}
+// -->
+</script>
+
+<script language="JavaScript1.1">
+<!-- 
+function resetLink()
+{
+   document.cookie = "TransitLink=" + ";PATH=/"
+   document.cookie = "TransitFrame=" + ";PATH=/"
+}
+// -->
+</script>
+
+
+<script language="JavaScript">
+<!-- 
+function getLink(val)
+{
+   return ""
+}
+// -->
+</script>
+
+
+<script language="JavaScript1.1">
+<!-- 
+function getLink(val)
+{
+   name="TransitLink"
+   if (val==2)
+   {
+      name="TransitFrame"
+   }
+   var search = Name + "="
+   if (document.cookie.length > 0)
+   {
+      offset = document.cookie.indexOf(search)
+      if (offset != -1)
+      {
+         offset += search.length
+         end = document.cookie.indexOf(";", offset)
+         if (end == -1)
+            end = document.cookie.length
+         return document.cookie.substring(offset, end)
+      }
+   }
+}
+// -->
+</script>
+
+
+<script language="JavaScript">
+<!-- 
+Anchor=getLink(1)
+Frame=getLink(2)
+resetLink()
+document.write("<frameset border=0 rows=\"48,89%,39\">") ;
+ThisFrame="Frame-oben"
+if(ThisFrame==Frame)
+    document.write("<frame src=\"" + Anchor + "\" name=\"Frame-oben\" MARGINwidth=0 MARGINHEIGHT=0 NORESIZE SCROLLING=\"NO\" frameborder=0>");
+else
+    document.write("<frame src=\"navigation_oben.htm\" name=\"Frame-oben\" MARGINwidth=0 MARGINHEIGHT=0 NORESIZE SCROLLING=\"NO\" frameborder=0>");
+    document.write("<frameset border=0 cols=\"246,1*\">") ;
+        document.write("<frameset border=0 rows=\"76,90%\">") ;
+        ThisFrame="Frame-ABC"
+        if(ThisFrame==Frame)
+            document.write("<frame src=\"" + Anchor + "\" name=\"Frame-ABC\" MARGINwidth=0 MARGINHEIGHT=0 NORESIZE SCROLLING=\"NO\" frameborder=0>");
+        else
+            document.write("<frame src=\"abc.htm\" name=\"Frame-ABC\" MARGINwidth=0 MARGINHEIGHT=0 NORESIZE SCROLLING=\"NO\" frameborder=0>");
+        ThisFrame="Frame-TOC"
+        if(ThisFrame==Frame)
+            document.write("<frame src=\"" + Anchor + "\" name=\"Frame-TOC\" frameborder=0>");
+        else
+            document.write("<frame src=\"Inhalt.htm\" name=\"Frame-TOC\" frameborder=0>");
+        document.write("</FRAMESET>") ;
+    ThisFrame="Frame-Body"
+    if(ThisFrame==Frame)
+        document.write("<frame src=\"" + Anchor + "\" name=\"Frame-Body\" MARGINwidth=2 MARGINHEIGHT=10 frameborder=0>");
+    else
+        document.write("<frame src=\"lex_bg.htm\" name=\"Frame-Body\" MARGINwidth=2 MARGINHEIGHT=10 frameborder=0>");
+    document.write("</FRAMESET>") ;
+ThisFrame="Frame-unten"
+if(ThisFrame==Frame)
+    document.write("<frame src=\"" + Anchor + "\" name=\"Frame-unten\" MARGINwidth=0 MARGINHEIGHT=0 NORESIZE SCROLLING=\"NO\" frameborder=0>");
+else
+    document.write("<frame src=\"navigation_unten.htm\" name=\"Frame-unten\" MARGINwidth=0 MARGINHEIGHT=0 NORESIZE SCROLLING=\"NO\" frameborder=0>");
+document.write("<NOFRAMES><body>") ;
+document.write("<H2>This Web publication contains frames, but this browser doesn't support frames.</H2>") ;
+document.write("</body></NOFRAMES>") ;
+document.write("</FRAMESET>") ;
+// -->
+</script>
+
+</head>
+<NOscript>
+<frameset border=0 rows="48,89%,39">
+    <frame src="navigation_oben.htm" name="Frame-oben" MARGINwidth=0 MARGINHEIGHT=0 NORESIZE SCROLLING="NO" frameborder=0>
+    <frameset border=0 cols="246,1*">
+        <frameset border=0 rows="76,90%">
+            <frame src="abc.htm" name="Frame-ABC" MARGINwidth=0 MARGINHEIGHT=0 NORESIZE SCROLLING="NO" frameborder=0>
+            <frame src="Inhalt.htm" name="Frame-TOC" frameborder=0>
+        </FRAMESET>
+        <frame src="lex_bg.htm" name="Frame-Body" MARGINwidth=2 MARGINHEIGHT=10 frameborder=0>
+    </FRAMESET>
+    <frame src="navigation_unten.htm" name="Frame-unten" MARGINwidth=0 MARGINHEIGHT=0 NORESIZE SCROLLING="NO" frameborder=0>
+<NOFRAMES>
+<body>
+<H2>This Web publication contains frames, but this browser doesn't support frames.</H2>
+</body>
+</NOFRAMES>
+</FRAMESET>
+</NOscript>
+</html>

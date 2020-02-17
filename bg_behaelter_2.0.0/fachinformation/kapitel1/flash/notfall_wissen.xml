@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Bild/>
+	<ID>15_2</ID>
+	<Descr>Welche der folgenden Aussagen zum Retten aus Behältern sind richtig, welche falsch?</Descr>
+	<fb_richtig>Sehr gut! Sie haben die Aussagen richtig eingeschätzt.</fb_richtig>
+	<fb_falsch><![CDATA[Rettungstechnik sollte vor Ort bereitgehalten werden und<BR>Rettungsübungen sind mind. einmal jährlich zu wiederholen.]]></fb_falsch>
+	<fb_achtung>Bitte entscheiden Sie erst für alle Aussagen, ob sie richtig oder falsch.</fb_achtung>
+	<content>
+		<Options Category="R">Steigleitern mit Rückenschutz verhindern das Herausziehen einer abgestürzten und im Gurt hängenden Person.</Options>
+		<Options Category="F">Rettungstechnik sollte während des Befahrens von Behältern immer bei der Werkfeuerwehr oder einer anderen zentralen Stelle bereitgehalten werden. </Options>
+		<Options Category="R">Das Arbeiten ohne ständige Verbindung zwischen Rettungsgerät und Auffanggurt sollte die Ausnahme bilden. </Options>
+		<Options Category="R">Bei einer Gefährdung durch Sauerstoffmangel sind Isoliergeräte für die Rettung bereitzuhalten. </Options>
+		<Options Category="F">Praktische Rettungsübungen sind mindestens alle 3 Jahre zu wiederholen.</Options>
+	</content>
+</Quiz>

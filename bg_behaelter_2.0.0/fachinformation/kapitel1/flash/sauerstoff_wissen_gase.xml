@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Descr>Was schätzen Sie? Wie viel Liter Gas können aus einem Liter tiefkalt verflüssigtem Stickstoff entstehen und somit den Sauerstoffgehalt in der Umgebungsluft herabsetzen?</Descr>
+	<ID>6_2_1</ID>
+	<Bild>bilder/wissen_sauerstoff_gase.jpg</Bild>
+	<fb_richtig><![CDATA[Dieses erhebliche Gasvolumen kann besonders schnell<br>Sauerstoffmangel hervorrufen.]]></fb_richtig>
+	<fb_falsch>Da haben Sie sich verschätzt. Tatsächlich sind es 600 – 850 Liter.</fb_falsch>
+	<fb_achtung>Bitten treffen Sie zuerst Ihre Auswahl!</fb_achtung>
+	<content>
+		<Options Category="F">50 – 200 Liter</Options>
+		<Options Category="F">200 – 450 Liter</Options>
+		<Options Category="F">450 – 600 Liter</Options>
+		<Options Category="R">600 – 850 Liter</Options>
+		<Options Category="F">850 – 1.000 Liter</Options>
+	</content>
+</Quiz>

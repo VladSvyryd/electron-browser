@@ -1,0 +1,6 @@
+//** Frameset mittig auf Seite **//
+
+#introframeset {
+	display: block;
+	margin: 0 auto;
+}

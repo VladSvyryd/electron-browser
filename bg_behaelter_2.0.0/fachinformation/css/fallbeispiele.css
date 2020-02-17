@@ -1,0 +1,65 @@
+﻿/*******************************************************************************************/
+/*                                  Fallbeispiele CSS                                  	   */
+/* Stylesheet enthält Formatierungen des Programmteils Fallbeispiele,                      */
+/* die von den anderen Programmteilen abweichen.                                           */                                                   
+/* Alle gemeinsamen Formate sind in main.css definiert.                                    */                                                     
+/*******************************************************************************************/
+
+/* in diesem DIV befindet sich der Inhalt der Fallbeispielseiten */
+div.containerbox_fallbeispiele {
+	position:absolute;
+	left:257px;
+	top:23px;
+	width:732px;
+	overflow:visible;	
+	z-index:90;
+}
+
+/* DIV mit den einzelnen Buttons für die Kapitelnavigation */
+div.kapitelnavigation {
+	position:absolute; 
+	top:78px; 
+	left:48px;
+	z-index:99;
+}
+
+/* Buttons der Kapitelnavigation */
+img.kapitelnavigation {
+	margin-bottom:4px;
+	width:159px; 
+	height:43px;
+}
+
+/* DIV mit den einzelnen Buttons für die Seitennavigation */
+div.seitennavigation {
+	position:absolute; 
+	top:22px; 
+	left:766px; 
+	width:225px;
+	z-index:99;
+}
+
+/* Buttons der Seitennavigation */
+img.seitennavigation {
+	width:22px;
+	height:21px;
+}
+
+/* ganzseitige Bilder für Hintergrund*/
+div.bild_gross {
+	position:absolute;
+	top:81px;
+	left:220px;
+	width:790px;
+	height:500px;
+	padding:0;
+	margin:0;
+	z-index:1;
+}
+
+/* Text im linken Bereich der Seite, außerhalb der Containerbox*/
+div.links {
+	position:absolute;
+	left:50px;
+	z-index:99;
+}

@@ -1,0 +1,47 @@
+﻿/*******************************************************************************************/
+/*                                 Fachinformationen CSS                                   */                                                                           
+/* Dieses Stylesheet enthält Formatierungen des Programmteils Fachinformationen,           */                                  
+/* die von den anderen Programmteilen abweichen.                                           */                                                   
+/* Alle gemeinsamen Formate sind in main.css definiert.                                    */                                                     
+/*******************************************************************************************/
+
+/*******************************************************************************************/
+/*                   Allgemeine Formatierungen  (Tagdefinitionen   )                       */
+/*******************************************************************************************/
+
+/* Hauptdefinition für BODY in main.css, hier abweichende Definition wegen Schatten am linken Framerand */
+body {
+/*
+	background-image: url(img/fachinfo_background.gif);
+*/
+	background-repeat: repeat-y;
+}
+
+/* Position der Containerbox für jede Seite, beinhaltet die Überschrift, die Kapitellinie und den Inhalt */
+div.containerbox {
+	position: absolute;
+	left: 29px;
+	top: 24px;
+	width: 702px;
+	overflow: visible;
+	z-index: 90;
+}
+
+/* Position für seitenfüllende Übungen innerhalb der Containerbox */
+div.content_uebung {
+	position: absolute;
+	left: 26px;
+	top: 75px;
+}
+
+/* ganzseitige Bilder für den Hintergrund */
+div.bild_gross {
+	width: 724px;
+	height: 500px;
+	position: absolute;
+	top: 84px;
+	left: 29px;
+	z-index: 1;
+	padding: 0;
+	margin: 0;
+}

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Descr>Ein Mitarbeiter befährt mit den folgenden Einrichtungen ein volles Silo und sinkt teilweise im Schüttgut ein. Mit welcher bzw. welchen Einrichtungen besteht die Chance, wieder herausgezogen zu werden?</Descr>
+	<ID>14_2</ID>
+	<Bild>bilder/wissen_versinken.jpg</Bild>
+	<fb_richtig><![CDATA[Nur eine Siloeinfahreinrichtung kann die Person unbeschadet retten.]]></fb_richtig>
+	<fb_falsch><![CDATA[Da ist Ihnen ein Fehler unterlaufen. Wollen Sie es erneut versuchen?]]></fb_falsch>
+	<fb_achtung>Bitten treffen Sie zuerst Ihre Auswahl!</fb_achtung>
+	<content>
+		<Options Category="F">Dreibein mit Rettungswinde und Arbeitssitz</Options>
+		<Options Category="F">Höhensicherungsgerät und Auffanggurt</Options>
+		<Options Category="R">Siloeinfahreinrichtung (SEE)</Options>
+		<Options Category="F">Flaschenzug und Auffanggurt</Options>
+	</content>
+</Quiz>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Descr>Was schätzen Sie? Wie viel Prozent aller Absturzunfälle ereignen sich unter 3 Metern?</Descr>
+	<ID>13_2_1</ID>
+	<Bild>bilder/wissen_absturz_hoehe.jpg</Bild>
+	<fb_richtig><![CDATA[Schon bei einem Absturz aus geringer Höhe können<BR>sich Beschäftigte schwer verletzen.]]></fb_richtig>
+	<fb_falsch>86 %25 der Absturzunfälle ereignen sich unter 3 Metern.</fb_falsch>
+	<fb_achtung>Bitten treffen Sie zuerst Ihre Auswahl!</fb_achtung>
+	<content>
+		<Options Category="F">16 %25</Options>
+		<Options Category="F">26 %25</Options>
+		<Options Category="F">36 %25</Options>
+		<Options Category="F">56 %25</Options>
+		<Options Category="F">76 %25</Options>
+		<Options Category="R">86 %25</Options>
+	</content>
+</Quiz>

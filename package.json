@@ -1,0 +1,36 @@
+{
+  "name": "browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "electron-pack": "electron-builder -c.extraMetadata.main=./main.js --x64"
+  },
+  "build": {
+    "appId": "com.example.electron-cra",
+    "asarUnpack": [
+      "plugins/pepflashplayer.dll"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "directories": {
+      "buildResources": "assets"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "devDependencies": {
+    "electron": "^8.0.0",
+    "electron-packager": "^14.2.1",
+    "electron-builder": "^22.3.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

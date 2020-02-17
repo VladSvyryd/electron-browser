@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Descr>Was schätzen Sie? Wie viele Gefahrstoffe sind in der GESTIS-Stoffdatenbank der Deutschen Gesetzlichen Unfallversicherung verzeichnet?</Descr>
+	<ID>5_2_1</ID>
+	<Bild>bilder/wissen_wieviele.jpg</Bild>
+	<fb_richtig><![CDATA[Volltreffer! In der Datenbank sind Informationen<br>zu ca. 8.500 Stoffen enthalten.]]></fb_richtig>
+	<fb_falsch><![CDATA[Da liegen Sie etwas daneben. Verzeichnet sind<br>Informationen zu ca. 8.500 Stoffen.]]></fb_falsch>
+	<fb_achtung>Bitten treffen Sie zuerst Ihre Auswahl!</fb_achtung>
+	<content>
+		<Options Category="F">500 – 900</Options>
+		<Options Category="F">1.000 – 2.500</Options>
+		<Options Category="F">4.000 – 5.500</Options>
+		<Options Category="R">8.000 – 9.500</Options>
+		<Options Category="F">14.000 – 15.500</Options>
+	</content>
+</Quiz>

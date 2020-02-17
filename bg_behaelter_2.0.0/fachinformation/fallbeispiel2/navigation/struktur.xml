@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<TREE_MENU_NESTED OFFSET="17" MAINCOLOR="#000000" SUBCOLOR="#000000" OVERCOLOR="#000000" UEBERSCHRIFT="Fallbeispiel 2 - Störungsbeseitigung in einem Silo" LANGUAGE="german" modul_id="fallbeispiel2">
+	<!--DIe Atribute des menüs und ihre Bedeutung:
+OFFSET: bestimmt die x Position der Unterlinks und Ordner.
+MAINCLOR: Die Farbe für die Ordner.
+SUBCOLOR: Die Farbe für die links.
+OVERCOLOR: Die Farbe für ein Rollover für Links und Ordner 
+WIe soll die xml Datei generiert werden
+   
+   Um einen Ordner TREE zu kreieren benutzt man einfach <TREE>Title</TREE>, dann fügt man den
+   Unterordner innerhalb der <TREE></TREE> tags ein.
+   
+   - link menü erstellen:
+   <TREE ACTION="" LINK="" TARGET="">Title</TREE>
+      - ACTION: FRAME/URL
+            FRAME - wenn man einen link innerhalb eines flashmovies erstellen möchte.
+            URL - ein hyperlink zu einer bestimmten html-seite ausserhalb von flash
+      - LINK: Frame Number/Web Page
+            wenn man FRAME als action definiert hat
+            Web Page wenn man URL als action definiert hat
+      - TARGET: Window/Movie Clip
+            Window ist das Ziel des Frames im frameset
+            Movie Clip ist das Ziel für links innerhalb von Flash
+-->
+	<TREE>Ausgangssituation<TREE ACTION="URL" LINK="../fallbeispiel2/ausgangssituation1.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_ausgangssituation_1.pdf">Störungsbeseitigung in einem Silo</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel2/ausgangssituation2.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_ausgangssituation_2.pdf">Brückenbildung im Silo</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel2/ausgangssituation3.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_ausgangssituation_3.pdf">Natriumhydrogencarbonat</TREE>
+	</TREE>
+	<TREE>Arbeitsplanung<TREE ACTION="URL" LINK="../fallbeispiel2/arbeitsplanung1.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_arbeitsplanung_1.pdf">Benennung des Aufsichtführenden</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel2/arbeitsplanung2.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_arbeitsplanung_2.pdf">Welche Gefährdungen können auftreten?</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel2/arbeitsplanung3.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_arbeitsplanung_3.pdf">Gefährdungen im Detail</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel2/arbeitsplanung4.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_arbeitsplanung_4.pdf">Beteiligte und Zuständigkeiten</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel2/arbeitsplanung5.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_arbeitsplanung_5.pdf">Zeitplan</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel2/arbeitsplanung6.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_arbeitsplanung_6.pdf" u_id="fb_2_2_6" file="flash/erlaubnisschein_wissen.xml">Maßnahmenfestlegung im Erlaubnisschein</TREE>
+	</TREE>
+	<TREE>Vorbereitende Schutzmaßnahmen<TREE ACTION="URL" LINK="../fallbeispiel2/vorbereitung1.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_vorbereitung_1.pdf">Ein- und Unterweisen</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel2/vorbereitung2.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_vorbereitung_2.pdf">Leitungen abtrennen und Rüttler abschalten</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel2/vorbereitung3.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_vorbereitung_3.pdf">Seiltechnik mit redundanter Rettung</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel2/vorbereitung4.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_vorbereitung_4.pdf">Seiltechnik installieren</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel2/vorbereitung5.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_vorbereitung_5.pdf">Persönliche Schutzausrüstung</TREE>
+	</TREE>
+	<TREE>Befahrvorgang<TREE ACTION="URL" LINK="../fallbeispiel2/befahrvorgang1.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_befahrvorgang_1.pdf">Seilunterstütztes Einfahren</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel2/befahrvorgang2.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_befahrvorgang_2.pdf">Brückenbildung beseitigen und absaugen</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel2/befahrvorgang3.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_befahrvorgang_3.pdf">Arbeitswechsel und Wirksamkeitskontrolle</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel2/befahrvorgang4.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb2_befahrvorgang_4.pdf">Arbeitsende: Zusammenfassung</TREE>
+	</TREE>
+</TREE_MENU_NESTED>

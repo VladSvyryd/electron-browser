@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Descr>Was schätzen Sie? Welchen Durchmesser sollte ein schräg angeordnetes Mannloch am oberen Behälterrand mindestens haben, wenn die Stutzenhöhe mehr als 250 mm beträgt? Ziehen Sie den richtigen Durchmesser in das leere Feld der Grafik.
+</Descr>
+	<ID>4_2</ID>
+	<fb_richtig>Gut geschätzt! Um einen bequemen Einstieg zu ermöglichen, sollte der Durchmesser in diesem Fall 800 mm betragen.</fb_richtig>
+	<fb_falsch>400 – 500 mm sind zu klein, 1 000 mm sind nicht das Mindestmaß und 600 mm sind bei einer Stutzenhöhe bis 250 mm geeignet.</fb_falsch>
+	<fb_achtung>Bitten ziehen Sie erst eine Antwort in die Lücke!</fb_achtung>
+	<content>
+		<Options Term="400 mm"/>
+		<Options Term="500 mm"/>
+		<Options Term="600 mm"/>
+		<Options Category="800 mm" Term="800 mm"/>
+		<Options Term="1 000 mm"/>
+	</content>
+</Quiz>

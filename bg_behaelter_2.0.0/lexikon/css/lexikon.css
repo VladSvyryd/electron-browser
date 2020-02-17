@@ -1,0 +1,158 @@
+/* Grundtext */
+body { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11pt; 
+	line-height: 19px; 
+}
+
+/* Tabellen-Grundtext */
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 17px;
+}
+table.klein {
+	font-size: 9pt;
+	line-height: 15px;
+}
+
+/* alle Bilder randlos */
+img { 
+	border: none; 
+} 
+
+/* Links zu Popups und Lexikon */
+a.poplex:link { 
+	text-decoration: none; 
+	color: #000;
+}
+a.poplex:visited { 
+	text-decoration: none; 
+	color: #525252; 
+}
+a.poplex:hover { 
+	text-decoration: none; 
+	color: #000; 
+	background-color: #E9E9E9; 
+}
+
+/* Querverweise */
+a.quer {
+	font-size: 11pt;
+}
+a.quer:link { 
+	text-decoration: underline; 
+	color: #B30C16; 
+}
+a.quer:visited { 
+	text-decoration: underline; 
+	color: #666; 
+}
+a.quer:hover { 
+	text-decoration: underline; 
+	color: #B30C16; 
+}
+
+/* Querverweise */
+a.notiz:link { 
+	text-decoration: none; 
+	color: #525252; 
+}
+a.notiz:visited { 
+	text-decoration: none; 
+	color: #525252; 
+}
+a.notiz:hover { 
+	text-decoration: none; 
+	color: #525252; 
+}
+
+/* Popup */
+div.poplayer { 
+	padding: 0; 
+	visibility: hidden; 
+	color: #000; 
+	background-color: #FFF; 
+	border: 2px solid #F4BA6E;
+}
+
+/* Popup (Tabelle) */
+td.headline { 
+	background-color: #F4BA6E; 
+	font-weight: bold; 
+	padding: 1px 6px 3px 8px; 
+	line-height: 15px; 
+	font-size: 11px; 
+}
+
+/* Fußnotentext */
+p.footer {
+	font-size: 10pt;
+}
+
+td.poptext { 
+	padding: 5px 6px 0 10px; 
+	background-color: #FFF; 
+	line-height: 15px; 
+	font-size: 11px; 
+}
+
+/*Text auf grauem Hintergrund ohne Linie oben und links*/
+.Tabelleninhalt {
+	background-color: #E1E1E1;
+	border: 1px solid #CCC;
+	margin-bottom: -20px;
+}
+/*Text auf grauem Hintergrund ohne Linie oben und links*/
+.Tabelleninhalt_weiss {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	margin-bottom: -20px;
+	margin-top: 0;
+}
+/*Aufzählung auf grauem Hintergrund */
+.Aufzaehlung_Tabelleninhalt {
+	background-color: #E1E1E1;
+	text-indent: -8px;
+	margin-left: 8px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*weißer Text auf blauem Hintergrund ohne linke und mit rechter Linie*/
+.Kopfzeile_blau {
+	color: #FFF;
+	font-weight: bold;
+	background-color: #337CA4;
+	border: 1px solid #CCC;
+}
+
+/*Text auf grauem Hintergrund ohne Linien*/
+.Formel {
+ 	background-color: #F1F1F1;
+}
+
+/*Text auf grauem Hintergrund mit unterer Linie*/
+.Formel_linie {
+ 	background-color: #F1F1F1;
+	border-bottom: 1px solid #000;
+}
+
+/*weißer Text auf dunkelgrauem Hintergrund*/
+.Kopfzeile_dunkelgrau {
+ 	color: #FFF;
+ 	font-weight: bold;
+ 	background-color: #787878;
+	border: 1px solid #909090;
+ 	border-top-width: 0;
+}
+
+/*Text wird 64 Pixel eingerückt*/
+.eingerueckt { 
+ 	margin-left: 64px;
+}
+
+/*Text wird 24 Pixel eingerückt*/
+.eingerueckt_2 { 
+ 	margin-left: 24px;
+}

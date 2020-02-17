@@ -1,0 +1,423 @@
+/*******************************************************************************************/
+/*                                     Main CSS                                            */
+/* Dieses Stylesheet enthält Formatierungen, die in allen Programmteilen identisch sind.   */
+/* Programmteilspezifische Formatierungen sind in den Dateien                              */
+/* fachinformationen.css und fallbeispiele.css definiert .             					   */
+/*******************************************************************************************/
+
+
+/*******************************************************************************************/
+/*                   Allgemeine Formatierungen  (Tagdefinitionen   )                       */
+/*******************************************************************************************/
+
+/* alle Bilder randlos */
+img {
+	border:none;
+} 
+
+body {
+    font-size: 11pt; 
+	line-height: 19px; 
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;	
+	padding: 0;
+	margin: 0;
+	background-color:#FFFFFF;	
+} 
+
+td {
+	font-size: 11pt; 
+	line-height: 19px; 
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+area {
+	outline-style: none;
+}
+
+
+/*******************************************************************************************/
+/*                           Allgemeine Textformate                                        */
+/*******************************************************************************************/
+
+/* Kapitelüberschrift */
+.kapitel_ueberschrift {
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* Linie unter den Überschriften */
+.ueberschrift_linie {
+	margin-top: 10px;
+	margin-bottom: 23px;
+}
+
+/* normaler Fließtext */
+.fliesstext {
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+
+/* normaler Fließtext fett*/
+.fliesstext_fett {
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+
+/* normaler Text weiss und fett */
+.text_weiss_fett {
+	color: #FFFFFF;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+/* Text in 10pt */
+.text_klein {
+	font-size: 10pt;
+}
+
+.text_sehr_klein {
+	font-size: 8pt;
+}
+
+
+/*******************************************************************************************/
+/*                           Allgemeine Listenformate                                      */
+/*******************************************************************************************/
+
+/* unsortierte Liste vom Typ Disc und Text bei Umbruch bündig zu vorherigem Text */
+ul {
+	padding-left: 0;
+	margin-left: 17px;
+	list-style-type: disc;
+	list-style-position: outside;
+}
+
+ol {
+	list-style-type: decimal;
+	list-style-position: outside;
+}
+
+/*zur Abstandsformatierung der einzelnen List-Items*/
+li {
+	margin-bottom: 4px;
+}
+
+/*zur Abstandsformatierung der einzelnen List-Items mit großem Abstand*/
+li.last {
+	margin-bottom: 16px;
+}
+
+
+/*******************************************************************************************/
+/*                           Allgemeine Linkformate                                        */
+/*******************************************************************************************/
+
+/* Links ohne Klasse, wird i.d.R. bei Button- und Imagelinks verwendet, so taucht bei Klick kein Rahmen auf */
+a:link,
+a:visited,
+a:hover,
+a:active { 
+	outline-style: none;
+}
+
+/* Links zu Popups - Schrift schwarz*/
+a.popup:link,
+a.popup:visited,
+a.popup:hover {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.popup:hover {
+	background: #E0DFE3;
+}
+
+/* Links zu Popups - Schrift weiss*/
+a.popup_weiss:link,
+a.popup_weiss:visited,
+a.popup_weiss:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.popup_weiss:hover {
+	background: #6E6E6E;
+}
+
+
+/* Links zu Popups in Grafiken 10pt */
+a.popup_grafik:link,
+a.popup_grafik:visited,
+a.popup_grafik:hover {
+	font-size: 10pt;
+	line-height: 14px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.popup_grafik:hover {
+	background: #E0DFE3;
+}
+
+/* Links zu Lexikon - Schrift schwarz*/
+a.lex:link,
+a.lex:visited,
+a.lex:hover {
+	color: #000000;
+	text-decoration: none;
+	font-style: italic;
+}
+a.lex:hover { 
+	background: #E0DFE3; 	
+}
+
+/* Links zu Lexikon - Schrift weiss*/
+a.lex_weiss:link,
+a.lex_weiss:visited,
+a.lex_weiss:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: italic;
+}
+a.lex_weiss:hover { 
+	background: #6E6E6E; 	
+}
+
+/* Querverweise */
+a.quer:link,
+a.quer:visited,
+a.quer:hover {  
+	color: #B30B16;
+	text-decoration: none;
+}
+
+
+/*******************************************************************************************/
+/*            Tabelle für Aufbereitung von Informationen in Seiten oder Popups             */
+/*******************************************************************************************/
+.Standardtabelle 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 17px;	
+}
+/*weißer Text auf blauem Hintergrund*/
+.Kopfzeile_blau
+{
+	color: #FFFFFF;
+	font-size: 10pt;		
+	font-weight: bold;
+	background-color: #337CA4;
+	border: 1px solid #CCCCCC;
+	padding: 3px;
+}
+/*weißer Text auf dunkelgrauem Hintergrund*/
+.Kopfzeile_dunkelgrau 
+{
+	color: #FFFFFF;
+	font-size: 10pt;	
+	font-weight: bold;
+	background-color: #787878;
+	padding: 3px;
+}
+/*Text auf grauem Hintergrund ohne Linie oben und links*/
+.Tabelleninhalt 
+{
+	background-color: #E1E1E1;
+	border: 1px solid #CCCCCC;
+	margin-bottom: -20px;
+	padding: 3px;
+	font-size: 10pt;
+}
+
+
+/*******************************************************************************************/
+/*                                       Text-Popups                                       */
+/*******************************************************************************************/
+
+/* Popup für Text und Text-Bild-Kombination */
+div.popup_text {
+	background-color: #FDFDFD;
+	position: absolute;
+	z-index: 92;
+	overflow: visible;
+	visibility: hidden;
+}
+/* Rahmen um Popups */
+table.popup_text_table {
+	border: 2px;
+	border-color: #BFBFBF;
+	border-style: solid;
+	background-color: #FFFFFF;
+}
+/* Popup Überschrift */
+td.popup_text_head {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 10pt;
+	height: 21px;
+	padding: 2px 10px 2px 10px;
+	background-color: #008488;
+	border-width: 0 0 2px 0;
+	border-bottom-style: solid;
+	border-bottom-color: #BFBFBF;
+}
+/* Abstände innerhalb des Popups */
+td.popup_text_data {
+	font-size: 10pt; 
+	line-height: 12pt;
+	background-color: #FFFFFF;
+	padding: 10px 10px 5px 10px;
+}
+
+/*******************************************************************************************/
+/*                                 Rote-Text-Popups                                       */
+/*******************************************************************************************/
+
+/* Popup für Text und Text-Bild-Kombination mit rotem Kopf*/
+div.popup_redtext {
+	background-color: #6E6E6E;
+	position: absolute;
+	z-index: 91;
+	overflow: visible;
+	visibility: hidden;
+}
+/* Rahmen um Popups */
+table.popup_redtext_table {
+	border: 2px;
+	border-color: #BFBFBF;
+	border-style: solid;
+}
+/* Popup Überschrift */
+td.popup_redtext_head {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 10pt;
+	height: 21px;
+	padding: 2px 10px 2px 15px;
+	background-color: #C60D18;
+	border-width: 0 0 2px 0;
+	border-bottom-style: solid;
+	border-bottom-color: #BFBFBF;
+}
+/* Abstände innerhalb des Popups */
+td.popup_redtext_data {
+	color: #FFFFFF;
+	font-size: 10pt; 
+	line-height: 12pt;
+	background-color: #6E6E6E;
+	padding: 10px 10px 10px 15px;
+}
+
+/*******************************************************************************************/
+/*                             Hinweis MouseOver - Popups                                  */
+/*******************************************************************************************/
+
+/* DIV mit Hinweis für Unfallbeispiele */
+div.popup_hinweis {
+	position: absolute;
+	visibility: hidden;
+}
+/* Tabelle für Hinweis */
+table.popup_hinweis_table {
+	border: 3px;
+	border-color: #E79E3B;
+	border-style: solid;
+}
+/* Abstände innerhalb des Hinweises */
+td.popup_hinweis_text {
+	font-size: 10pt; 
+	line-height: 17px;
+	background-color: #FFFFFF;
+	padding: 10px;
+}
+
+
+/*******************************************************************************************/
+/*                           Bilbeschreibung MouseOver - Popups                            */
+/*******************************************************************************************/
+
+/* Bildbeschreibung Layer */
+div.bildbeschreibung {
+	position: absolute;
+	visibility: hidden;
+	z-index: 91;
+}
+
+/* Rahmen um Bildbeschreibung */
+table.bildbeschreibung_table {
+	border: 1px;
+	border-color: #000000;
+	border-style: solid;
+	background-color: #FFFFD9;
+	color: #000000;
+}
+
+/* Überschrift innerhalb der Bildbeschreibung */
+td.bildbeschreibung_head {
+	font-size: 10pt; 
+	font-weight: bold;
+	padding: 5px;
+	border: 1px;
+}
+
+/* Text innerhalb der Bildbeschreibung */
+td.bildbeschreibung_text {
+	font-size: 10pt; 
+	line-height: 12pt;
+	padding: 5px;
+}
+
+
+
+/*******************************************************************************************/
+/*                          		Bild Pop-ups                                           */
+/*******************************************************************************************/
+
+/* Popup für vergößerte Bilder ohne Text*/
+div.popup_bild {
+	background-color: #FDFDFD;
+	position: absolute;
+	z-index: 91;
+	visibility: hidden;
+}
+
+/* Rahmen um Popups */
+table.popup_bild_table {
+	border: 2px;
+	border-color: #BFBFBF;
+	border-style: solid;
+	background-color: #FFFFFF;	
+}
+
+/* Popup Überschrift */
+td.popup_bild_head {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 10pt;
+	height: 21px;
+	padding: 2px 10px 2px 15px;
+	background-color: #6E6E6E;
+	border-width: 0 0 2px 0;
+	border-bottom-style: solid;
+	border-bottom-color: #BFBFBF;
+}
+
+/* Schließkreuz */
+td.popup_bild_kreuz {
+	padding: 2px;
+	background-color: #6E6E6E;
+	border-width: 0 0 2px 0;
+	border-bottom-style: solid;
+	border-bottom-color: #BFBFBF;
+}
+
+/* Abstände innerhalb des Popups */
+td.popup_bild_data {
+	padding: 0;
+}

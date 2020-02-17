@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Bild/>
+	<ID>fb_1_2_7</ID>
+	<Descr/>
+	<fb_richtig><![CDATA[Sie haben die passenden Schutzmaßnahmen ausgewählt. Schauen Sie sich nun den kompletten Erlaubnisschein als PDF an.]]></fb_richtig>
+	<fb_falsch><![CDATA[Da ist Ihnen ein Fehler unterlaufen. Schauen Sie sich in jedem Fall den kompletten Erlaubnisschein als PDF an.]]></fb_falsch>
+	<fb_achtung>Sie haben noch nicht alle Schutzmaßnahmen beurteilt.</fb_achtung>
+	<content>
+		<Options Category="R">Spülen des Rührkessels</Options>
+		<Options Category="R">Abtrennen aller Zuleitungen</Options>
+		<Options Category="R">Mechanische Einrichtungen abschalten und sichern</Options>
+		<Options Category="R">Be- und Entlüftungsmaßnahmen vor und während der Arbeit</Options>
+		<Options Category="R">Freimessen vor der Arbeit und nach Unterbrechungen</Options>
+		<Options Category="R">Schutzhandschuhe gegen mechanische Einwirkung</Options>
+		<Options Category="F">Schutzhandschuhe gegen chemische Einwirkung</Options>
+		<Options Category="R">Zusätzlicher Atemschutz wegen möglicher Lösemittelreste</Options>
+		<Options Category="R">Elektrische Gefährdung: fest installierte Lampe außerhalb des Kessels benutzen</Options>
+	</content>
+</Quiz>

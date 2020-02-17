@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Descr>Aus der ersten Zugangsöffnung eines Behälters sollen Gefahrstoffe mit einem Lüfter abgesaugt werden. Durch die zweite Zugangsöffnung soll Frischluft nachströmen. Wie müssen die beiden Öffnungen beschaffen sein, damit der komplette Behälter gut durchlüftet wird?</Descr>
+	<ID>5_2_2</ID>
+	<Bild>bilder/wissen_lueftung.jpg</Bild>
+	<fb_richtig><![CDATA[Wenn beide Öffnungen gleich groß sind, entstehen turbulente Luftströme,<br>die auch die Randbereiche des Behälters gut durchlüften.]]></fb_richtig>
+	<fb_falsch><![CDATA[Wenn die Öffnungen verschieden groß sind, entsteht ein langsamer<br>laminarer Luftstrom, der die Randbereiche des Behälters nicht erreicht.]]></fb_falsch>
+	<fb_achtung>Bitten treffen Sie zuerst Ihre Auswahl!</fb_achtung>
+	<content>
+		<Options Category="F">Die Zugangsöffnung mit dem Lüfter muss kleiner als die andere sein.</Options>
+		<Options Category="F">Die Zugangsöffnung mit dem Lüfter muss größer als die andere sein.</Options>
+		<Options Category="R">Die Zugangsöffnung mit dem Lüfter muss genauso groß sein wie die andere.</Options>
+	</content>
+</Quiz>

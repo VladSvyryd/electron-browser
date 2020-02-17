@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<ID>6_2_3</ID>
+	<Descr>Lesen Sie sich diesen Lückentext zum Thema Sauerstoffüberschuss durch und ziehen Sie die richtigen Antworten in die passenden Lücken.</Descr>
+	<fb_richtig><![CDATA[Sie kennen sich aus mit den brandfördernden<BR>Eigenschaften von Sauerstoff!]]></fb_richtig>
+	<fb_falsch>Ihre Antwort ist fehlerhaft. Richtig wären die Eingaben: 8-fache, 910°C und 1 Sekunde.</fb_falsch>
+	<fb_achtung>Bitte ziehen Sie erst drei Antworten in die passenden Lücken!</fb_achtung>
+	<content>
+		<Options Category="leer" Term="leer"/>
+	</content>
+</Quiz>

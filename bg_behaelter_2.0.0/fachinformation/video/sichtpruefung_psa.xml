@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FLVCoreCuePoints>
+	<CuePoint>
+		<Time>1000</Time>
+		<Type>event</Type>
+		<Name>10</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>Auf augenscheinliche Mängel müssen persönliche Schutzausrüstungen gegen Absturz vor jeder Benutzung</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>7</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>7000</Time>
+		<Type>event</Type>
+		<Name>20</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>geprüft werden. Bemerkt man einen Schaden – z.B. ausgefranste Nähte, Risse oder Schnitte in Gurten,</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>19</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>19000</Time>
+		<Type>event</Type>
+		<Name>30</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>Beschädigungen an Seilen, Knoten in Seilen, die sich nicht mehr lösen lassen, Schweißperlen und</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>28</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>28000</Time>
+		<Type>event</Type>
+		<Name>40</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>Brandspuren oder Verfärbungen, die auf die Einwirkung von Chemikalien hinweisen – die persönlichen</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>35</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>35000</Time>
+		<Type>event</Type>
+		<Name>50</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>Schutzausrüstungen sofort ausmustern und eine weitere Benutzung durch Dritte verhindern.</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>40</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+</FLVCoreCuePoints>

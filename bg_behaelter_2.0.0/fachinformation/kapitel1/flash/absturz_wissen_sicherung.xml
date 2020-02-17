@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Descr>Welche der hier aufgeführten Geräte dürfen nicht als Absturzsicherung benutzt werden?</Descr>
+	<ID>13_2_2</ID>
+	<Bild>bilder/wissen_absturz_sicherung.jpg</Bild>
+	<fb_richtig><![CDATA[Für die Absturzsicherung kommen Höhensicherungsgeräte<BR>oder mitlaufende Auffanggeräte in Betracht.]]></fb_richtig>
+	<fb_falsch><![CDATA[Rettungshubgeräte halten dem Fangstoß i.d.R. nicht stand, zusätzliche Falldämpfer beeinträchtigen die Funktion des Höhensicherungsgerätes.]]></fb_falsch>
+	<fb_achtung>Bitten treffen Sie zuerst Ihre Auswahl!</fb_achtung>
+	<content>
+		<Options Category="F">Mitlaufendes Auffanggerät an beweglicher Führung</Options>
+		<Options Category="R">Höhensicherungsgerät mit zusätzlichem Falldämpfer</Options>
+		<Options Category="F">Höhensicherungsgerät</Options>
+		<Options Category="R">Rettungshubgerät (Rollglis)</Options>
+	</content>
+</Quiz>

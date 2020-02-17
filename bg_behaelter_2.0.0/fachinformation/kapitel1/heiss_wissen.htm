@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta name="language" content="de">
+	<meta name="author" content="BG RCI">
+	<meta name="description" content="Sicheres Befahren von Behältern">
+	<meta name="keywords" content="Übung, Temperatur, Thermometer, Richttemperatur, Grad, Celsius, arbeitsmedizinisch">	
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/fachinformationen.css">
+	<script src="../js/main.js" type="text/javascript"></script>
+	<script src="../js/flash.js" type="text/javascript"></script>	
+	<script src="modul.js" type="text/javascript"></script>
+	<title>Hohe und tiefe Temperaturen / H&auml;tten Sie es gewusst?</title>
+</head>
+<body onLoad="nav_aktualisieren(aktuelles_verzeichnis);">
+	<div class="containerbox" id="containerbox">
+		<p class="kapitel_ueberschrift">Hohe und tiefe Temperaturen / H&auml;tten Sie es gewusst?</p>
+		<p class="ueberschrift_linie"><img src="../img/pixel_schwarz.gif" height="1" width="100%"></p>
+	</div>
+	<div class="content_uebung">
+		<script type="text/javascript">
+			var url = top.Inhalt.mainFrame.location.href;
+			var temp_chapter = url.substring(0, url.lastIndexOf("/"));
+			var aktuelles_kapitel = temp_chapter.substring(temp_chapter.lastIndexOf("/")+1, temp_chapter.length);
+			var aktuelle_seite = url.substring( url.lastIndexOf("/")+1, url.length );
+
+			var flashvars = 'html_url=../'+aktuelles_kapitel+'/'+aktuelle_seite;
+			var newFlashObject = new Array
+				(
+					'src', 'flash/heiss_wissen',
+					'version', '8,0,0,0',
+					'width', 704,
+					'height', 495,
+					'wmode', 'opaque',
+					'allowFullScreen', false,
+					'allowScriptAccess', 'always',
+					'quality', 'high',
+					'flashvars', flashvars
+				);
+			insertFlashContent(newFlashObject); //end AC code
+
+			// flash_uebung('heiss_wissen.swf');
+		</script>
+	</div>	
+</body>
+</html>

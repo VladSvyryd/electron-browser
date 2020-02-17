@@ -1,0 +1,104 @@
+; Translation List for Search Maker Pro
+;
+; Format is:
+; -Number
+; -The translated phrase
+; -Original phrase
+; -Description of original phrase
+;
+
+01
+Volltextsuche:
+Search this site:
+Text placed before search form if no custom header is specified.
+
+02
+Suchen
+Search
+Label on search button
+
+03
+Die Suchmaschine findet nur Seiten aus diesem Projekt.<br>Die besten Resultate erzielen Sie in dem Sie nach ein oder zwei Worte suchen.<br>Wird nach mehreren Worten gesucht, so werden diese "wie eine Wortgruppe" behandelt.
+The search engine will find pages on this website only.<br>For best results enter just one or two words.<br>Searches on more than one word will be treated "as a phrase".
+Text placed after search form if no custom header is specified.
+
+04
+Das Zeichen (*) kann für Wildcard-Suchen benutzt werden.
+Use the asterisk (*) character for wildcard searches.
+Additional text placed after search form if no custom header is specified and wilcard options used.
+
+05
+Ihre Suche nach
+You searched for
+Text at top of results page. Example: You searched for <search phrase>
+
+06
+Beschreibung:
+Description:
+Text displayed that describes the page from the <meta description> tag.
+
+07
+Treffer
+match
+Word used to desribe if 1 match is made. Example: 1 match
+
+08
+Treffer
+matches
+Word used to desribe if many matches are made. Example: 24 matches
+
+09
+- Treffer in der Beschreibung
+- matched description
+Display if the word was found in the description.
+
+10
+- Treffer in der URL
+- matched URL
+Display if the word was found in the URL.
+
+11
+- Treffer im Titel
+- matched title
+Display if the word was found in the page title.
+
+12
+Zurück zur Suche
+Search Again
+Text at foot of results page. Hyperlink that returns to the previous page.
+
+13
+Fenster schließen
+Close Window
+Text at foot of results page if new window option is used. Hyperlink that closes to the current window.
+
+14
+Fehler: Das Zeichen (*) muss entweder am Anfang oder am Ende des Textes stehen.
+ERROR: The wildcard character (*) must be at the beginning or end of the text.
+Error message displayed if the user enters the wildcard * character incorrectly.
+
+15
+Es wurden keine Trefferseiten gefunden.<br>
+No pages matched your search.
+Message displayed if no pages were found.
+
+16
+Seite gefunden.
+page shown.
+Text at foot of results page if 1 page is found. Example: 1 page shown.
+
+17
+Seiten gefunden.
+pages shown.
+Text at foot of results page if many pages are found. Example: 23 pages shown.
+
+18
+Suchresultate für
+Search results for
+Title of results page
+
+19
+Suche
+Search this Site
+Title of search page
+

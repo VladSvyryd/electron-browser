@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Bild/>
+	<ID>fb_3_2_4</ID>
+	<Descr/>
+	<fb_richtig><![CDATA[Sie haben die passenden Schutzmaßnahmen ausgewählt. Schauen Sie sich nun den kompletten Erlaubnisschein als PDF an.]]></fb_richtig>
+	<fb_falsch><![CDATA[Da ist Ihnen ein Fehler unterlaufen. Schauen Sie sich in jedem Fall den kompletten Erlaubnisschein als PDF an.]]></fb_falsch>
+	<fb_achtung>Sie haben noch nicht alle Schutzmaßnahmen beurteilt.</fb_achtung>
+	<content>
+		<Options Category="F">Abtrennen der Zuleitungen zur Abwassergrube</Options>
+		<Options Category="R">Förderschnecken abschalten und sichern</Options>
+		<Options Category="F">Be- und Entlüftungsmaßnahmen vor Arbeitsbeginn</Options>
+		<Options Category="R">Freimessen vor der Arbeit</Options>
+		<Options Category="R">Permanente Luftanalyse mit Multiwarngerät</Options>
+		<Options Category="R">Flüssigkeitsdichte Schutzhandschuhe</Options>
+		<Options Category="F">Atemschutz: Isoliergerät mit Druckluftzuführungsschlauch</Options>
+		<Options Category="R">Zündquellen vermeiden</Options>
+		<Options Category="R">Impfung und Hygiene</Options>
+		<Options Category="F">Zugang und Rettung über mobile Anlegeleiter ohne zusätzliche Maßnahmen</Options>
+		<Options Category="R">Zugang und Rettung über Windenausleger mit Auffanggurt, Winde und Höhensicherungsgerät</Options>
+	</content>
+</Quiz>

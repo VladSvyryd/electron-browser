@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<ID>9_2_2</ID>
+	<Descr>Wissen Sie, welche elektromagnetische Strahlung in welchem Frequenzbereich wirkt? Ordnen Sie die Strahlungsarten in die vorgesehenen Felder des elektromagnetischen Spektrums ein.</Descr>
+	<fb_richtig><![CDATA[Das elektromagnetische Spektrum reicht von den langwelligen<BR>Radiowellen bis hin zu den sehr kurzwelligen Gammastrahlen.]]></fb_richtig>
+	<fb_falsch><![CDATA[Da ist Ihnen ein Fehler unterlaufen. Bedenken Sie:<BR>Je höher die Frequenz, desto kurzwelliger die Strahlung.]]></fb_falsch>
+	<fb_achtung>Bitte ziehen Sie erst alle Antworten in die passenden Lücken!</fb_achtung>
+	<content>
+		<Options Category="leer" Term="leer"/>
+	</content>
+</Quiz>

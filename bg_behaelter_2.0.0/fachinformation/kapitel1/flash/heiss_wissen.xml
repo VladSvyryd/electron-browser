@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<ID>10_2</ID>
+	<Descr>Beantworten Sie die zwei folgenden Fragen, indem Sie die Thermometer auf die jeweils richtige Temperatur einstellen.</Descr>
+	<fb_richtig><![CDATA[Gut gemacht! Sie haben die passenden Temperaturen ausgewählt.]]></fb_richtig>
+	<fb_falsch><![CDATA[Angemessen bei schwerer Arbeit sind 12 °C und arbeitsmedizinisch untersucht werden muss man ab –25 °C.]]></fb_falsch>
+	<content>
+		<Options Category="leer" Term="leer"/>
+	</content>
+</Quiz>

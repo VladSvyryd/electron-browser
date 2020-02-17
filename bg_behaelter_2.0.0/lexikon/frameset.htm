@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta name="language" content="de">
+	<meta name="author" content="BG Chemie">
+	<title>Lexikon BG Behaelter</title>
+</head>
+<script src="./js/lexikon.js" type="text/javascript"></script>
+<script src="./js/main.js" type="text/javascript"></script>
+<script>
+<!--
+function suche_schliessen() {
+	try{
+		if (parent.opener){
+			if (parent.opener.parent.suchfenster) {
+				if (!parent.opener.parent.suchfenster.closed){
+				  parent.opener.parent.suchfenster.close();
+				}
+			}	 //Lexikon direkt gestartet
+		} else {
+			if (parent.suchfenster) {
+				if (!parent.suchfenster.closed){
+				  parent.suchfenster.close();
+				}
+			}	
+		}
+	}catch (e){}
+}
+
+var seite=location.search.substring(1,location.search.length);
+if(seite.length==0) {
+	seite="lex_bg.htm";
+}
+
+document.write('<frameset onbeforeunload="suche_schliessen();" border=0 rows="*,39">');
+document.write('<frameset border=0 rows="48,*">');
+document.write('<frame src="navigation_oben.htm" name="Frame-oben" frameborder=0 scrolling="no">');
+document.write('<frameset border=0 cols="246,*">');
+document.write('<frameset border=0 rows="75,*">');
+document.write('<frame src="abc.htm" name="Frame-ABC" frameborder=0 scrolling="no">');
+document.write('<frame src="Inhalt.htm" name="Frame-TOC" frameborder=0>');
+document.write('</frameset>');
+document.write('<frame src="'+ seite +'" name="Frame-Body" frameborder=0>');
+document.write('</frameset>');
+document.write('</frameset>');
+document.write('<frame src="navigation_unten.htm" name="Frame-unten" frameborder=0 scrolling="no">');
+document.write('</frameset>');
+// -->
+</script>
+<noframes>
+    <body>
+        <h2>Ihr Browser beherrscht leider keine Frames, deshalb können Sie diese Seite nicht betrachten.</h2>
+    </body>
+</noframes>
+</html>

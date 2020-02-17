@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Descr>Was schätzen Sie? Wie viel Benzin reicht für das Entstehen einer explosionsfähigen Atmosphäre in einem 200-l-Fass aus?</Descr>
+	<ID>7_2</ID>
+	<Bild>bilder/wissen_brand.jpg</Bild>
+	<fb_richtig><![CDATA[Ca. 7 ml Benzin können durch Verdampfen in einem 200-l-Fass<BR>eine explosionsfähige Atmosphäre schaffen.]]></fb_richtig>
+	<fb_falsch><![CDATA[Nur ein Teelöffel Benzin reicht aus, um eine explosionsfähige<BR>Atmosphäre im Fass zu erzeugen!]]></fb_falsch>
+	<fb_achtung>Bitten treffen Sie zuerst Ihre Auswahl!</fb_achtung>
+	<content>
+		<Options Category="R">1 Teelöffel (ca. 7 ml)</Options>
+		<Options Category="F">1 kleines Glas (300 ml)</Options>
+		<Options Category="F">1 großes Glas (500 ml)</Options>
+		<Options Category="F">1 Flasche (1 l)</Options>
+		<Options Category="F">1 Eimer (5 l)</Options>
+		<Options Category="F">1 Kanister (20 l)</Options>
+	</content>
+</Quiz>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Descr>Was schätzen Sie? Wie viel Prozent aller Befahrunfälle entstehen durch organisatorische Mängel bzw. Versäumnisse?</Descr>
+	<ID>3_2</ID>
+	<Bild>bilder/wissen_orga.jpg</Bild>
+	<fb_richtig><![CDATA[Ihre Einschätzung ist genau richtig. Bei der organisatorischen <br> Planung kann viel falsch gemacht werden.]]></fb_richtig>
+	<fb_falsch>Sie haben die organisatorischen Mängel unterschätzt! Achten Sie umso mehr auf eine durchdachte und genaue organisatorische Planung.</fb_falsch>
+	<fb_achtung>Bitten treffen Sie zuerst Ihre Auswahl!</fb_achtung>
+	<content>
+		<Options Category="F">  5 – 10 %25</Options>
+		<Options Category="F">25 – 30 %25</Options>
+		<Options Category="F">55 – 60 %25</Options>
+		<Options Category="F">75 – 80 %25</Options>
+		<Options Category="R">85 – 90 %25</Options>
+	</content>
+</Quiz>

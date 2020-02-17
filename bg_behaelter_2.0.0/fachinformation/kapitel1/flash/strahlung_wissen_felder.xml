@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Bild>bilder/wissen_emf.jpg</Bild>
+	<ID>9_2_1</ID>
+	<Descr>Welche Personen dürfen nicht (auch nicht kurzzeitig) im Expositionsbereich 1 nach BGV B11 „Elektromagnetische Felder“ arbeiten (z.B. im Bereich bestimmter Trafos)? </Descr>
+	<fb_richtig><![CDATA[Im Expositionsbereich 1 dürfen sich Träger von passiven<BR>oder aktiven Implantaten nicht aufhalten!]]></fb_richtig>
+	<fb_falsch><![CDATA[Versuchen Sie es erneut.]]></fb_falsch>
+	<fb_achtung>Bitte entscheiden Sie erst für alle Aussagen, ob sie richtig oder falsch.</fb_achtung>
+	<content>
+		<Options Category="F">Keine Person</Options>
+		<Options Category="R">Personen mit passiven Implantaten                                               (z.B. künstliches Hüftgelenk)</Options>
+		<Options Category="R">Personen mit aktiven Implantaten                                 (Herzschrittmacher, Insulinpumpe)</Options>
+	</content>
+</Quiz>

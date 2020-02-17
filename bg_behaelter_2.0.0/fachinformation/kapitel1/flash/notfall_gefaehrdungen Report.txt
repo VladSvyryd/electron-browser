@@ -1,0 +1,161 @@
+notfall_gefaehrdungen.swf Filmbericht
+--------------------------------------
+
+Bild #    Bild Byte    Gesamt Byte    Szene
+------    ---------    -----------    ----------------
+      1          45970          45970    Szene 1 (AS 2.0-Klassen Exportbild)
+      2         358409         404379    
+      3         199032         603411    
+      4         252069         855480    
+      5          60031         915511    
+      6          33944         949455    
+
+Szene                        Form Byte    Text Byte    ActionScript Byte
+-------------------------    ---------    ---------    -----------------
+Szene 1                               99          3703                  4359
+
+Symbol                       Form Byte    Text Byte    ActionScript Byte
+-------------------------    ---------    ---------    -----------------
+preloader_prozent_mc                   0           194                     0
+preloader_mc                          42             0                   424
+lasche5_bild1_mc                       0             0                     0
+lasche3_bild2_mc                       0             0                     0
+lasche2_bild2_mc                       0             0                     0
+lasche1_bild3_mc                       0             0                     0
+lasche1_bild2_mc                       0             0                     0
+hintergrund_oben                      95           393                     0
+lasche1_bild1_mc                       0             0                     0
+lasche2_bild1_mc                       0             0                     0
+lasche3_bild1_mc                       0             0                     0
+lasche4_bild1_mc                       0             0                     0
+dummy                                  0           159                    34
+hidden_button                          0             0                     1
+lasche1_popup1_mc                    176            61                    27
+lasche1_popup2_mc                    176            63                    27
+lasche1_popup3_mc                    176            82                    27
+lasche2_popup1_mc                    119           102                    27
+lasche2_popup2_mc                    119           100                    27
+lasche3_popup1_mc                    174             0                    27
+lasche3_popup2_mc                    176            82                    27
+lasche4_bubble1_mc                    56           277                     1
+lasche3_bubble1_mc                    55           173                     1
+lasche1_bubble1_mc                    56           196                     1
+lasche1_bubble2_mc                    55           142                     1
+lasche1_bubble3_mc                    55           209                     1
+lasche2_bubble1_mc                    56           278                     1
+lasche2_bubble2_mc                    55           143                     1
+lexikon_popup                         38             0                     0
+lexikon_zweizeiler                     0             0                     0
+zugangsverfahren_mc                  111           687                    27
+lasche1_popup4_mc                    111           524                    27
+querverweis                           55             0                     1
+schliesskreuz_fake                    34             0                     0
+
+Schriftart                 Byte        Zeichen    
+-----------------------    --------    -----------
+Wingdings  13 pts               271    Ý
+Arial Kursiv  13 pts           1589    Aaceghklnpstu
+wingdings 3  13 pts             375    a
+arial  13 pts                  9290     (),.ABEGPRSWabcdefghiklmnoprstuvwyzßäöü
+Arial  13 pts                  5373     !(),-.:ABCDEFGHKLMNOPRSTUVWZabcdefghiklmnoprstuvwyzÜßäöü
+Arial Fett  13 pts             3178     .:ABGHKMNOPRSZabcdefghiklmnoprstuvzßäü
+Arial Fett                      318     !•
+
+ActionScript Byte    Position
+-----------------    --------
+               299    Szene 1:AS:1
+               291    Szene 1:buttons:1
+                41    Szene 1:popup:1
+                27    zugangsverfahren_mc:script:1
+                34    dummy:script:1
+                43    Szene 1:popup:1:zugangsverfahren_mc(zugangsverfahren_mc)
+                 1    hidden_button:script:1
+               424    preloader_mc:as:1
+                39    Szene 1:popup 4 text:2
+                39    Szene 1:popup 3 bild 3:2
+                39    Szene 1:popup 2 bild 2:2
+                39    Szene 1:popup 1 bild 1:2
+               111    Szene 1:bubbles:2
+                43    Szene 1:lexikon + popup + quer buttons:2:Kein Instanzname zugewiesen(lexikon_popup)
+                53    Szene 1:lexikon + popup + quer buttons:2:Kein Instanzname zugewiesen(lexikon_popup)
+                 1    querverweis:Ebene 2:1
+                83    Szene 1:lexikon + popup + quer buttons:2:Kein Instanzname zugewiesen(querverweis)
+               226    Szene 1:bilder:2:lasche1_bild1_mc(lasche1_bild1_mc)
+               226    Szene 1:bilder:2:lasche1_bild2_mc(lasche1_bild2_mc)
+               226    Szene 1:bilder:2:lasche1_bild3_mc(lasche1_bild3_mc)
+                 1    lasche1_bubble1_mc:script:1
+                 1    lasche1_bubble2_mc:script:1
+                 1    lasche1_bubble3_mc:script:1
+                27    lasche1_popup1_mc:script:1
+                43    Szene 1:popup 1 bild 1:2:lasche1_popup1_mc(lasche1_popup1_mc)
+                27    lasche1_popup2_mc:script:1
+                43    Szene 1:popup 2 bild 2:2:lasche1_popup2_mc(lasche1_popup2_mc)
+                27    lasche1_popup3_mc:script:1
+                43    Szene 1:popup 3 bild 3:2:lasche1_popup3_mc(lasche1_popup3_mc)
+                27    lasche1_popup4_mc:script:1
+                43    Szene 1:popup 4 text:2:lasche1_popup4_mc(lasche1_popup4_mc)
+                56    Szene 1:buttons:2:Kein Instanzname zugewiesen(hidden_button)
+                56    Szene 1:buttons:2:Kein Instanzname zugewiesen(hidden_button)
+                56    Szene 1:buttons:2:Kein Instanzname zugewiesen(hidden_button)
+                56    Szene 1:buttons:2:Kein Instanzname zugewiesen(hidden_button)
+                56    Szene 1:buttons:2:Kein Instanzname zugewiesen(hidden_button)
+                39    Szene 1:popup 2 bild 2:3
+                39    Szene 1:popup 1 bild 1:3
+                79    Szene 1:bubbles:3
+               226    Szene 1:bilder:3:lasche2_bild1_mc(lasche2_bild1_mc)
+               226    Szene 1:bilder:3:Kein Instanzname zugewiesen(lasche2_bild2_mc)
+                 1    lasche2_bubble1_mc:script:1
+                 1    lasche2_bubble2_mc:script:1
+                27    lasche2_popup1_mc:script:1
+                43    Szene 1:popup 1 bild 1:3:lasche2_popup1_mc(lasche2_popup1_mc)
+                27    lasche2_popup2_mc:script:1
+                43    Szene 1:popup 2 bild 2:3:lasche2_popup2_mc(lasche2_popup2_mc)
+                56    Szene 1:buttons:3:Kein Instanzname zugewiesen(hidden_button)
+                39    Szene 1:popup 2 bild 2:4
+                39    Szene 1:popup 1 bild 1:4
+                40    Szene 1:bubble:4
+               226    Szene 1:bilder:4:lasche3_bild1_mc(lasche3_bild1_mc)
+               226    Szene 1:bilder:4:lasche3_bild2_mc(lasche3_bild2_mc)
+                 1    lasche3_bubble1_mc:script:1
+                27    lasche3_popup1_mc:script:1
+                43    Szene 1:popup 1 bild 1:4:lasche3_popup1_mc(lasche3_popup1_mc)
+                27    lasche3_popup2_mc:script:1
+                43    Szene 1:popup 2 bild 2:4:lasche3_popup2_mc(lasche3_popup2_mc)
+                56    Szene 1:buttons:4:Kein Instanzname zugewiesen(hidden_button)
+                40    Szene 1:bubble:5
+               227    Szene 1:bild:5:lasche4_bild1_mc(lasche4_bild1_mc)
+                 1    lasche4_bubble1_mc:script:1
+                56    Szene 1:buttons:5:Kein Instanzname zugewiesen(hidden_button)
+                40    Szene 1:bubble:6
+               227    Szene 1:bild:6:lasche5_bild1_mc(lasche5_bild1_mc)
+                56    Szene 1:buttons:6:Kein Instanzname zugewiesen(hidden_button)
+               621    ActionScript 2.0-Klassen
+
+Bitmap                     Komprimiert    Komprimierung
+-----------------------    -----------  --------  -------------
+lasche0.gif                    23613      307648   Verlustfrei
+lasche1.gif                     1323      307648   Verlustfrei
+lasche1_bild1.jpg              19289      147560   JPEG-Qualität=90
+lasche1_bild2.jpg              21647      147560   JPEG-Qualität=90
+lasche1_bild3.jpg              15794      147560   JPEG-Qualität=90
+schliesskreuz.gif                 86         340   Verlustfrei
+lasche1_popup1.jpg             77811     1048344   JPEG-Qualität=80
+lasche1_popup2.jpg            131635     1040000   JPEG-Qualität=90
+lasche1_popup3.jpg             82478     1040000   JPEG-Qualität=90
+lasche2.gif                     1416      307648   Verlustfrei
+lasche2_bild1.jpg              26291      227528   JPEG-Qualität=90
+lasche2_bild2.jpg              34245      224672   JPEG-Qualität=90
+lasche2_popup1.jpg             55230      560592   JPEG-Qualität=90
+lasche2_popup2.jpg             78394      560592   JPEG-Qualität=90
+lasche3.gif                     1437      307648   Verlustfrei
+lasche3_bild1.jpg              34025      230400   JPEG-Qualität=90
+lasche3_bild2.jpg              30303      227520   JPEG-Qualität=90
+lasche3_popup1.jpg             76581      560592   JPEG-Qualität=90
+lasche3_popup2.jpg            106838     1040000   JPEG-Qualität=90
+lasche4.gif                     1339      307648   Verlustfrei
+lasche4_bild1.jpg              57161      566480   JPEG-Qualität=90
+lasche5_bild1.jpg              32485      457920   JPEG-Qualität=80
+
+
+
+

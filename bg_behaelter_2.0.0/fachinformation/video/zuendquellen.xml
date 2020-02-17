@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FLVCoreCuePoints>
+	<CuePoint>
+		<Time>500</Time>
+		<Type>event</Type>
+		<Name>10</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>Wir geben Benzin in eine Schale und stellen eine nicht explosionsgeschützte Handlampe hinein.</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>6.8</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>6800</Time>
+		<Type>event</Type>
+		<Name>20</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>Was passiert, wenn die Glühbirne mit einem kleinen Schlaghammer zertrümmert wird?</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>17.7</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>17700</Time>
+		<Type>event</Type>
+		<Name>30</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>Die Energie des feinen Glühwendels hat ausgereicht,</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>20.3</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>20300</Time>
+		<Type>event</Type>
+		<Name>40</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>um das explosionsfähige Benzindampf-Luftgemisch zu entzünden.</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>25</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>25000</Time>
+		<Type>event</Type>
+		<Name>50</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>In der Praxis kann dieser Fall eintreten, wenn eine nicht explosionsgeschützte Handlampe zu Boden fällt,</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>30.8</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>30800</Time>
+		<Type>event</Type>
+		<Name>60</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>weil zum Beispiel jemand über das Kabel stolpert.</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>34</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>34000</Time>
+		<Type>event</Type>
+		<Name>70</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>Deshalb dürfen in explosionsgefährdeten Bereichen nur explosionsgeschützte,</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>38.8</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>38800</Time>
+		<Type>event</Type>
+		<Name>80</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>elektrische Betriebsmittel eingesetzt werden.</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>41.6</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+</FLVCoreCuePoints>

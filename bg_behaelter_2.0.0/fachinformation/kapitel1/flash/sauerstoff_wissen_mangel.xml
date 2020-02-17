@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Bild/>
+	<ID>6_2_2</ID>
+	<Descr>Entscheiden Sie, ob die folgenden Aussagen richtig oder falsch sind. </Descr>
+	<fb_richtig>Sie schätzen die Gefährdung durch Sauerstoffmangel richtig ein.</fb_richtig>
+	<fb_falsch><![CDATA[Schauen Sie sich die folgenden Informationsseiten besonders gut an,<BR>damit Sie alle Gefährdungen im Blick haben.]]></fb_falsch>
+	<fb_achtung>Bitte entscheiden Sie erst für alle Aussagen, ob sie richtig oder falsch.</fb_achtung>
+	<content>
+		<Options Category="F">Wenn Sie sich in einen Behälter mit unter 10 Vol.-%25 Sauerstoffgehalt beugen, können Sie sich noch schnell vor der Erstickungsgefahr zurückziehen. </Options>
+		<Options Category="R">Eine Kerze ist zur Warnung vor Sauerstoffmangel und erhöhtem Kohlendioxid nicht geeignet, da sie erst unter 12 Vol.-%25 Sauerstoffgehalt erlischt und dann die toxische Konzentration von Kohlendioxid bereits erreicht ist. </Options>
+		<Options Category="R">Bei einem Sauerstoffgehalt von 6 – 8 Vol.-%25 ersticken wir bereits nach 2 – 3 Minuten. </Options>
+		<Options Category="F">Es besteht keine Gefährdung, wenn der Sauerstoffgehalt bei 17 Vol.-%25 liegt und der Kohlendioxidgehalt bei 4 – 5 Vol.-%25. </Options>
+	</content>
+</Quiz>

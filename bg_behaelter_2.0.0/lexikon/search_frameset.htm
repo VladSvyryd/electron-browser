@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Sicheres Befahren von Beh&auml;ltern - Suche</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <script src="js/main.js" type="text/javascript"></script>
+</head>
+
+<script type="text/javascript">
+	if (window.location.search != "") {
+		search_file = window.location.search.substring(1,location.search.length);
+		document.write('<frameset rows="159,*" cols="*,450,*" framespacing="0" frameborder="no" border="0" >');
+		document.write('<frame src="blind.htm" id="blind_top_left" name="blind_top_left" scrolling="no" noresize="noresize" frameborder="0"  marginwidth="0" marginheight="0" />');
+		document.write('<frame src="' + search_file + '" name="searchFrame" scrolling="no" noresize id="searchFrame" title="Suche">');
+		document.write('<frame src="blind.htm" id="blind_top_right" name="blind_top_right" scrolling="no" noresize="noresize" frameborder="0"  marginwidth="0" marginheight="0" />');
+		document.write('<frame src="blind.htm" id="blind_bottom_left" name="blind_bottom_left" scrolling="no" noresize="noresize" frameborder="0"  marginwidth="0" marginheight="0" />');
+		document.write('<frame src="result.htm" name="resultFrame" noresize id="resultFrame" title="Suchergebnisse">');
+		document.write('<frame src="blind.htm" id="blind_bottom_right" name="blind_bottom_right" scrolling="no" noresize="noresize" frameborder="0"  marginwidth="0" marginheight="0" />');
+		document.write('</frameset>');
+	} 
+	else {
+		alert("Keine gültige Such-Seite definiert!");
+	}
+</script>
+
+<noframes>
+    <body>
+    	<p >Ihr Browser unterst&uuml;tzt keine Frames!</p>
+    </body>
+</noframes>
+
+</html>

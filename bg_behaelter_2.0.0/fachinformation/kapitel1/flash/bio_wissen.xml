@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Descr>Welche der hier aufgeführten Erreger können in abwassertechnischen Anlagen auftreten?</Descr>
+	<ID>8_2</ID>
+	<Bild>bilder/wissen_bio.jpg</Bild>
+	<fb_richtig><![CDATA[Sie haben die gesuchten Erreger gefunden.]]></fb_richtig>
+	<fb_falsch><![CDATA[Kolibakterien und Hepatitis A-Viren können in fäkalienhaltigem<BR>Abwasser vorkommen.]]></fb_falsch>
+	<fb_achtung>Bitten treffen Sie zuerst Ihre Auswahl!</fb_achtung>
+	<content>
+		<Options Category="F">Tollwutviren</Options>
+		<Options Category="R">Hepatitis A-Viren</Options>
+		<Options Category="F">Milzbrandbakterien</Options>
+		<Options Category="R">Kolibakterien</Options>
+		<Options Category="F">Tuberkulosebakterien</Options>
+	</content>
+</Quiz>

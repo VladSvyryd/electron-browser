@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FLVCoreCuePoints>
+	<CuePoint>
+		<Time>200</Time>
+		<Type>event</Type>
+		<Name>10</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>Das Benzindampf-Luftgemisch in diesem geschlossenen Behälter ist zu fett und somit nicht explosionsfähig.</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>7.6</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>7600</Time>
+		<Type>event</Type>
+		<Name>20</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>Wir wollen herausfinden, was geschieht, wenn wir die Flüssigkeit und die Dämpfe</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>12</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>12000</Time>
+		<Type>event</Type>
+		<Name>30</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>aus dem Behälter entfernen und anschließend zünden.</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>15</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>15000</Time>
+		<Type>event</Type>
+		<Name>40</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>Das Benzin bleibt an der Innenfläche des Behälters als dünner Lösemittelfilm haften.</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>21</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>21000</Time>
+		<Type>event</Type>
+		<Name>50</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>Dieser Film verdampft nachträglich, was ausreicht, um im vermeintlich leeren Behälter</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>26</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>26000</Time>
+		<Type>event</Type>
+		<Name>60</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>eine explosionsfähige Atmosphäre zu erzeugen.</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>29</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>29000</Time>
+		<Type>event</Type>
+		<Name>70</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>Diese kann z.B. durch Schweißarbeiten entzündet werden, was zu den gefürchteten Fassexplosionen führt.</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>35</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+</FLVCoreCuePoints>
+

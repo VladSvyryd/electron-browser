@@ -1,0 +1,220 @@
+/*******************************************************************************************/
+/*                                     Menu CSS                                            */
+/* Dieses Stylesheet enthält Formatierungen, die nur im Hauptmenü vorkommen.               */
+/* Programmteilspezifische Formatierungen sind in den Dateien                              */
+/* main.css, fachinformationen.css und fallbeispiele.css definiert.   					   */
+/*******************************************************************************************/
+
+/* Styles für das Hauptmenü */
+.menu_table {
+	font-size:10pt;
+	margin-left:10px;
+	margin-top:20px;
+}
+.menu_head {
+	font-size:14pt;
+	font-weight:bold;
+	color:#0C599F;
+	margin-top:0px;
+	margin-bottom:12px;
+}
+.menu_text {
+	font-size:10pt;
+	text-align:left;
+	padding-right:10px;
+}
+.menu_icon {
+	font-size:10pt;
+	width:33px;
+	padding-right:20px;
+	padding-left:5px;
+}
+/* Trennlinie z.B. zwischen Dokumenten */
+.menu_linie {
+	margin-top:10px;
+	margin-bottom:23px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.menu_text_fett {
+	font-size:10pt;
+	font-weight:bold;
+	text-align:left;
+	padding-right:10px;
+}
+
+/*******************************************************************************************/
+/*                              Hauptmenünavigation                                        */
+/*******************************************************************************************/
+
+td.haupt_ueberschrift{
+	font-weight:bold;	
+	font-family:Arial, Helvetica, sans-serif;
+	color: #4B555D;
+	display: block;
+	font-size: 12px;
+	padding: 12px 0 2px;
+}
+td.haupt_aktiv {
+	font-weight:bold;	
+	font-family:Arial, Helvetica, sans-serif;
+	color: #4B555D;
+	display: block;
+	font-size: 12px;
+	padding: 2px 0;
+	/*background-image:url(bilder/haupt_aktiv.gif);*/
+}
+td.haupt_inaktiv {
+	font-family:Arial, Helvetica, sans-serif;
+	color: #4B555D;
+	display: block;
+	font-size: 12px;
+	padding: 2px 0;
+	/*background-image:url(bilder/haupt_inaktiv.gif);*/
+}
+td.haupt_pfeil_aktiv {
+	font-size:12px;
+	font-weight:bold;	
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 2px 0;
+	/*background-image:url(bilder/haupt_pfeil_aktiv.gif);*/
+}
+td.haupt_pfeil_inaktiv {
+	font-size:12px;
+	/*font-weight:bold;	*/
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 2px 0;
+	/*background-image:url(bilder/haupt_pfeil_inaktiv.gif);*/
+}
+td.sub {
+	border-left: 1px solid #0C599F;
+	padding-left: 10px;
+	font-size:12px;
+	line-height:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	display:block;
+	/*background-color: #C3C3C3;*/
+}
+
+/*******************************************************************************************/
+/*                                       Links                                             */
+/*******************************************************************************************/
+
+/* Links zur Öffnung von Dokumenten */
+a.docs:link,
+a.docs:visited{
+	color: #0c599f;
+	text-decoration:none;
+}
+
+a.docs:hover{
+	text-decoration:underline;
+}
+
+/* Links der Hauptnavigation - Menüoberpunkte aktiv */
+a.hauptnav_aktiv:link,
+a.hauptnav_aktiv:visited,
+a.hauptnav_aktiv:hover
+{
+	color: #4B555D;
+	text-decoration:none;
+	padding-left:0px;	
+}
+
+/* Links der Hauptnavigation - Menüoberpunkte inaktiv */
+a.hauptnav_inaktiv:link,
+a.hauptnav_inaktiv:visited,
+a.hauptnav_inaktiv:hover
+{
+	color: #4B555D;
+	text-decoration:none;
+	padding-left:0px;	
+}
+a.hauptnav_inaktiv:hover
+{
+	text-decoration:underline;
+}
+/* Links der Hauptnavigation - Menüunterpunkte aktiv */
+a.subnav_aktiv:link,
+a.subnav_aktiv:visited,
+a.subnav_aktiv:hover
+{
+	color: #4B555D;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+/* Links der Hauptnavigation - Menüunterpunkte inaktiv */
+a.subnav_inaktiv:link, 
+a.subnav_inaktiv:visited, 
+a.subnav_inaktiv:hover
+{
+	color: #4B555D;
+	text-decoration:none;
+}
+a.subnav_inaktiv:hover
+{
+	text-decoration:underline;
+}
+/* Externe Links mit Symbol */
+a.menu_link:link,
+a.menu_link:visited
+{
+	color:#0c599f;
+	/*display:block;*/
+	text-decoration:none;
+	padding-left:16px;
+	background: url('./bilder/link.gif') 0 4px no-repeat;
+}
+a.menu_link:hover{
+	text-decoration:underline;
+}
+
+/* Links zu den einzelnen Seiten, wird gelöscht wie die Listen Styles */
+a.pointer:link,
+a.pointer:visited,
+a.pointer:hover
+{
+	color:#FF0000;
+	background:#FFFFFF;	
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a.pointer:hover {
+	background:#E9E9E9;
+}
+
+/********************************************************/
+/* Meldungen */
+/********************************************************/
+#warning_div, noscript div, .noscript {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:100%;
+	border-top: #c3c3c3 solid 1px;
+	border-bottom: #c3c3c3 solid 1px;
+	padding: 8px 0 10px 0;
+}
+
+noscript {
+	display:block;
+}
+
+
+#warning_div {
+	visibility: hidden;
+}
+
+#warning_div strong, noscript strong, .noscript strong {
+	color:#d00;
+}
+
+#warning_div img {
+	float:left;
+	display: block;
+	margin:10px 0 5px 0;
+}

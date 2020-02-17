@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<Quiz>
+	<Descr>Was meinen Sie? Wie hoch ist die Aufprallgeschwindigkeit eines 2,5 kg schweren Hammers, der aus 10 m Höhe auf den Boden fällt?</Descr>
+	<ID>11_2_1</ID>
+	<Bild>bilder/wissen_geschw.jpg</Bild>
+	<fb_richtig><![CDATA[Die Aufprallgeschwindigkeit beträgt ca. 50 km/h.]]></fb_richtig>
+	<fb_falsch><![CDATA[Leider daneben. Mit der Formel v = Wurzel aus 2*g*h kommen Sie weiter!]]></fb_falsch>
+	<fb_achtung>Bitten treffen Sie zuerst Ihre Auswahl!</fb_achtung>
+	<content>
+		<Options Category="F">ca. 5 km/h</Options>
+		<Options Category="F">ca. 10 km/h</Options>
+		<Options Category="F">ca. 30 km/h</Options>
+		<Options Category="R">ca. 50 km/h</Options>
+		<Options Category="F">ca. 80 km/h</Options>
+		<Options Category="F">ca. 110 km/h</Options>
+	</content>
+</Quiz>

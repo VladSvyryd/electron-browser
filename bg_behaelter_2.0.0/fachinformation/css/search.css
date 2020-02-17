@@ -1,0 +1,65 @@
+/*******************************************************************************************/
+/*                                     Main CSS                                            */
+/* Dieses Stylesheet enthaelt Formatierungen, die in allen Programmteilen identisch sind.  */
+/*******************************************************************************************/
+
+/*******************************************************************************************/
+/*                   Allgemeine Formatierungen  (Tagdefinitionen)		                       */
+/*******************************************************************************************/
+
+body {
+	background-color: #fff;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin:0px;
+}
+
+/* Bilder randlos */
+img { 
+	border: none; 
+}
+
+body, p, td {
+	font-size: 13px; 
+	line-height: 18px; 
+}
+
+
+/*******************************************************************************************/
+/*                      Allgemeine Textformate und Formatierungen                          */
+/*******************************************************************************************/
+
+p { /* normaler Fliesstext */
+	margin: 0 0 12px 0;
+	padding-left: 17px;
+	text-align: left;
+}
+
+description{
+}
+/*******************************************************************************************/
+/*                                       Links                                             */
+/*******************************************************************************************/
+
+/*a:link,
+a:visited,
+a:hover,
+a:active { 
+	outline-style: none;
+	text-decoration: none;
+	color:#000;
+}
+*/
+
+
+/* Querverweise */
+a:link,
+a:visited  {
+	color: #2f8de4;
+	text-decoration: none;
+}
+a:hover { 
+	text-decoration: underline; 
+}
+

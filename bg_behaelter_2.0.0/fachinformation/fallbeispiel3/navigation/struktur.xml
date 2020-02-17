@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<TREE_MENU_NESTED OFFSET="17" MAINCOLOR="#000000" SUBCOLOR="#000000" OVERCOLOR="#000000" UEBERSCHRIFT="Fallbeispiel 3 - Wartungsarbeit in einer Grube" LANGUAGE="german" modul_id="fallbeispiel3">
+	<!--DIe Atribute des menüs und ihre Bedeutung:
+OFFSET: bestimmt die x Position der Unterlinks und Ordner.
+MAINCLOR: Die Farbe für die Ordner.
+SUBCOLOR: Die Farbe für die links.
+OVERCOLOR: Die Farbe für ein Rollover für Links und Ordner 
+WIe soll die xml Datei generiert werden
+   
+   Um einen Ordner TREE zu kreieren benutzt man einfach <TREE>Title</TREE>, dann fügt man den
+   Unterordner innerhalb der <TREE></TREE> tags ein.
+   
+   - link menü erstellen:
+   <TREE ACTION="" LINK="" TARGET="">Title</TREE>
+      - ACTION: FRAME/URL
+            FRAME - wenn man einen link innerhalb eines flashmovies erstellen möchte.
+            URL - ein hyperlink zu einer bestimmten html-seite ausserhalb von flash
+      - LINK: Frame Number/Web Page
+            wenn man FRAME als action definiert hat
+            Web Page wenn man URL als action definiert hat
+      - TARGET: Window/Movie Clip
+            Window ist das Ziel des Frames im frameset
+            Movie Clip ist das Ziel für links innerhalb von Flash
+-->
+	<TREE>Ausgangssituation<TREE ACTION="URL" LINK="../fallbeispiel3/ausgangssituation1.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_ausgangssituation_1.pdf">Wartungsarbeit in einer Grube</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel3/ausgangssituation2.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_ausgangssituation_2.pdf">Sondenwartung im Abwasserbereich</TREE>
+	</TREE>
+	<TREE>Arbeitsplanung<TREE ACTION="URL" LINK="../fallbeispiel3/arbeitsplanung1.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_arbeitsplanung_1.pdf">Der Aufsichtführende</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel3/arbeitsplanung2.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_arbeitsplanung_2.pdf">Welche Gefährdungen können auftreten?</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel3/arbeitsplanung3.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_arbeitsplanung_3.pdf">Gefährdungen im Detail</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel3/arbeitsplanung4.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_arbeitsplanung_4.pdf" u_id="fb_3_2_4" file="flash/erlaubnisschein_wissen.xml">Maßnahmenfestlegung im Erlaubnisschein</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel3/arbeitsplanung5.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_arbeitsplanung_5.pdf">Beteiligte und Zuständigkeiten</TREE>
+	</TREE>
+	<TREE>Vorbereitende Schutzmaßnahmen<TREE ACTION="URL" LINK="../fallbeispiel3/vorbereitung1.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_vorbereitung_1.pdf">Arbeitsmedizinische Vorsorge: Impfung</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel3/vorbereitung2.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_vorbereitung_2.pdf">Ein- und Unterweisen</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel3/vorbereitung3.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_vorbereitung_3.pdf">Schnecken abschalten und Zündquellen vermeiden</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel3/vorbereitung4.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_vorbereitung_4.pdf">Installieren des Zugangssystems</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel3/vorbereitung5.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_vorbereitung_5.pdf">Persönliche Schutzausrüstung</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel3/vorbereitung6.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_vorbereitung_6.pdf">Freimessen</TREE>
+	</TREE>
+	<TREE>Befahrvorgang<TREE ACTION="URL" LINK="../fallbeispiel3/befahrvorgang1.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_befahrvorgang_1.pdf">Hängetest und Einfahren</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel3/befahrvorgang2.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_befahrvorgang_2.pdf">Sonde warten und ausfahren</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel3/befahrvorgang3.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_befahrvorgang_3.pdf">Hygienemaßnahmen</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel3/befahrvorgang4.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb3_befahrvorgang_4.pdf">Arbeitsende: Zusammenfassung</TREE>
+	</TREE>
+</TREE_MENU_NESTED>

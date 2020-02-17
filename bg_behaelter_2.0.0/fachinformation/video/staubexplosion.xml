@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FLVCoreCuePoints>
+	<CuePoint>
+		<Time>7000</Time>
+		<Type>event</Type>
+		<Name>10</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>Der brennbare Feststoff wird zuerst aufgewirbelt. Dadurch entsteht ein Staub-Luft-Gemisch.</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>13.8</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>13800</Time>
+		<Type>event</Type>
+		<Name>20</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>Wenn die Konzentration der Staubteile in der Luft zwischen den Explosionsgrenzen liegt</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>18.4</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>18400</Time>
+		<Type>event</Type>
+		<Name>30</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b> und eine wirksame Zündquelle vorhanden ist, kommt es zu einer Staubexplosion.</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>24</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>24000</Time>
+		<Type>event</Type>
+		<Name>40</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>Voraussetzung ist, dass der Staub in genügender Feinheit, d.h. mit einer Körngröße</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>29</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+	<CuePoint>
+		<Time>29000</Time>
+		<Type>event</Type>
+		<Name>50</Name>
+		<Parameters>
+			<Parameter>
+				<Name>text</Name>
+				<Value><![CDATA[<b>von unter etwa einem halben Millimeter vorliegt.</b>]]></Value>
+			</Parameter>
+			<Parameter>
+				<Name>endTime</Name>
+				<Value>33</Value>
+			</Parameter>
+		</Parameters>
+	</CuePoint>
+</FLVCoreCuePoints>

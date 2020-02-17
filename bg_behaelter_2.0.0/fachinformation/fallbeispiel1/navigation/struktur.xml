@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Technik und Medien (Technik und Medien) -->
+<TREE_MENU_NESTED OFFSET="17" MAINCOLOR="#000000" SUBCOLOR="#000000" OVERCOLOR="#000000" UEBERSCHRIFT="Fallbeispiel 1 - Instandsetzungsarbeit in einem Rührkessel" LANGUAGE="german" modul_id="fallbeispiel1">
+	<!--DIe Atribute des menüs und ihre Bedeutung:
+OFFSET: bestimmt die x Position der Unterlinks und Ordner.
+MAINCLOR: Die Farbe für die Ordner.
+SUBCOLOR: Die Farbe für die links.
+OVERCOLOR: Die Farbe für ein Rollover für Links und Ordner 
+WIe soll die xml Datei generiert werden
+   
+   Um einen Ordner TREE zu kreieren benutzt man einfach <TREE>Title</TREE>, dann fügt man den
+   Unterordner innerhalb der <TREE></TREE> tags ein.
+   
+   - link menü erstellen:
+   <TREE ACTION="" LINK="" TARGET="">Title</TREE>
+      - ACTION: FRAME/URL
+            FRAME - wenn man einen link innerhalb eines flashmovies erstellen möchte.
+            URL - ein hyperlink zu einer bestimmten html-seite ausserhalb von flash
+      - LINK: Frame Number/Web Page
+            wenn man FRAME als action definiert hat
+            Web Page wenn man URL als action definiert hat
+      - TARGET: Window/Movie Clip
+            Window ist das Ziel des Frames im frameset
+            Movie Clip ist das Ziel für links innerhalb von Flash
+-->
+	<TREE>Ausgangssituation<TREE ACTION="URL" LINK="../fallbeispiel1/ausgangssituation1.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_ausgangssituation_1.pdf">Instandsetzungsarbeit in einem Rührkessel</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel1/ausgangssituation2.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_ausgangssituation_2.pdf">Reparatur an einem Rührwerk</TREE>
+	</TREE>
+	<TREE>Arbeitsplanung<TREE ACTION="URL" LINK="../fallbeispiel1/arbeitsplanung1.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_arbeitsplanung_1.pdf">Arbeitsorganisation</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel1/arbeitsplanung2.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_arbeitsplanung_2.pdf">Welche Gefährdungen können auftreten?</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel1/arbeitsplanung3.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_arbeitsplanung_3.pdf">Gefährdungen im Detail</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel1/arbeitsplanung4.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_arbeitsplanung_4.pdf">Benennung des Aufsichtführenden</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel1/arbeitsplanung5.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_arbeitsplanung_5.pdf">Beteiligte und Zuständigkeiten</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel1/arbeitsplanung6.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_arbeitsplanung_6.pdf">Zeitplan</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel1/arbeitsplanung7.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_arbeitsplanung_7.pdf" u_id="fb_1_2_7" file="flash/erlaubnisschein_wissen.xml">Maßnahmenfestlegung im Erlaubnisschein</TREE>
+	</TREE>
+	<TREE>Vorbereitende Schutzmaßnahmen<TREE ACTION="URL" LINK="../fallbeispiel1/vorbereitung1.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_vorbereitung_1.pdf">Ein- und Unterweisen</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel1/vorbereitung2.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_vorbereitung_2.pdf">Behälter inertisieren, spülen, lüften und abtrennen</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel1/vorbereitung3.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_vorbereitung_3.pdf">Behälter freimessen</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel1/vorbereitung4.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_vorbereitung_4.pdf">Windenausleger-System installieren</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel1/vorbereitung5.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_vorbereitung_5.pdf">Persönliche Schutzausrüstung</TREE>
+	</TREE>
+	<TREE>Befahrvorgang<TREE ACTION="URL" LINK="../fallbeispiel1/befahrvorgang1.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_befahrvorgang_1.pdf">Einsteigen</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel1/befahrvorgang2.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_befahrvorgang_2.pdf">Rührwerk reparieren</TREE>
+		<TREE ACTION="URL" LINK="../fallbeispiel1/befahrvorgang3.htm" TARGET="mainFrame" PRINTFILE="../../dokumente/ausdruck/fb1_befahrvorgang_3.pdf">Arbeitsende: Zusammenfassung</TREE>
+	</TREE>
+</TREE_MENU_NESTED>

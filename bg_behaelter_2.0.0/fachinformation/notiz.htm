@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Notizen</title>
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
+	<!--script src="js/resize.js" type="text/javascript"></script-->
+	<script src="js/flash.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+			function sprung_seite(seite) {
+				top.opener.Inhalt.mainFrame.location.href = seite;
+			}
+		/* ]]> */	
+	</script>
+	<style type="text/css">
+		html, body {
+			padding:0;
+			margin:0;
+			background:#eee url(img/notizen_bg.png) 50% repeat-y;
+		}
+		.main {
+			width:400px;
+			margin:0 auto;
+			text-align:center;
+			background:#fff;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			notiz_werte = document.location.search.substring(1);
+			notiz_werte += "&flash_pfad=flash/";
+
+			var flashvars = notiz_werte;
+
+			var newFlashObject = new Array
+			(
+				"src", "flash/notizen",
+				"flashvars", flashvars,
+				"bgcolor", "#e3e3e3",
+				"version", "8,0,0,0",
+				"width", 400,
+				"height", 500
+			);
+			insertFlashContent(newFlashObject);
+		/* ]]> */	
+		</script>
+	</div>
+</body>
+</html>
